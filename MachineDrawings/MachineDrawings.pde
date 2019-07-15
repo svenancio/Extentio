@@ -47,7 +47,7 @@ import org.opencv.core.Core;
   Change the following parameters to adjust observation, drawing and evaluation
 */
 
-boolean debugMode = false; //use debug mode to calibrate camera
+boolean debugMode = true; //use debug mode to calibrate camera
 int brightness = 10;//set brightness from 0 to 255
 float contrast = 1.5;//set contrast from 0.0 to 2.0
 int maxDrawTime = 9000;//in frames (1800 equals 1 minute)
