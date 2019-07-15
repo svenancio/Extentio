@@ -31,10 +31,13 @@ Try running the software again, and you should now see the captured images.
 
 
 **Drawing mode**
+
 To put the software in drawing mode, simply go to this line of code and set this parameter to **false**
 
 > boolean debugMode = true; //use debug mode to calibrate camera
 
+
 **A few notes**
+
 - Extentio is currently in beta, and it's a very personal software. I do not guarantee quality of code, because the way I program is very experimental. Also, I do not guarantee I'll fix issues, but feel free to report any bugs.
 - The images you generate might be different from the ones I showcase. I share this code with basic adjustment of parameters, but in my practice, I have different settings for the parameters. I encourage you to explore the code and discuss it with me.
