@@ -1,6 +1,6 @@
 # Extentio 1.5b
 
-**Disclaimer 1: This version of Extentio does not include the AI model for facial detection. When you install OpenCV library, it includes a series of pre-trained models, which you may use at your own will and risk. I am not responsible for accuracy and bias of these models.**
+**Disclaimer 1: This version of Extentio does not include the AI model for facial detection. When you install OpenCV library, it will include a series of pre-trained models, which you may use at your own will and risk. I am not responsible for accuracy and bias of these models.**
 
 **Disclaimer 2: Extentio has many "aesthetic" parameters. If you wish to generate images as your own artwork, please contact me first. I'll gladly discuss aesthetic features between our works in order to establish differences.**
 
