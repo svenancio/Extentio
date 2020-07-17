@@ -1,6 +1,8 @@
 # Extentio 1.5b
 
-**Important: Extentio has many "aesthetic" parameters. If you wish to generate images as your own artwork, please contact me first. I'll gladly discuss aesthetic features between our works in order to establish differences.**
+**Disclaimer 1: This version of Extentio does not include the AI model for facial detection. When you install OpenCV library, it includes a series of pre-trained models, which you may use at your own will and risk. I am not responsible for accuracy and bias of these models.**
+
+**Disclaimer 2: Extentio has many "aesthetic" parameters. If you wish to generate images as your own artwork, please contact me first. I'll gladly discuss aesthetic features between our works in order to establish differences.**
 
 Welcome! Extentio is a software for automatically generated sketches, made for my Master's degree practical development. It uses a webcamera and OpenCV for face detections. When it finds a face, it is framed and zoomed in, and this will be the base for a drawing. A color palette is extracted from this framed image. Then, several "pen" agents start to sketch with short and straight lines, each with one of the extracted colors. Tracing is done by color proximity, in a way that each pen fills up areas of common shades, creating contour lines, textures and volumes. There are currently two ways to stop a sketch: one is by redetection of a face on the ongoing drawing, the other is a timeout parameter. Whichever happens first, a drawing is then complete. Some drawings produced with Extentio can be seen below or in my website http://sergiovenancio.art
 
